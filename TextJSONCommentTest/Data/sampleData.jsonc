@@ -1,0 +1,8 @@
+{
+  //Comment
+  "FirstName": "太郎",
+  /*
+  this is comment
+  */
+  "LastName": "田中"//コメントだよ!
+}

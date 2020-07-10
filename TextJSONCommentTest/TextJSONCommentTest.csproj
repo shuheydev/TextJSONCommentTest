@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\sampleData.jsonc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data\sampleData.jsonc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveSharp" Version="1.5.45" />
+  </ItemGroup>
+
+</Project>
